@@ -1,0 +1,98 @@
+// navbar start
+.menu-mobile {
+    background-color: var(--info-color);
+    color: var(--white-color) !important;
+    width: 100%;
+    display: flex;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 10px;
+    justify-content: space-between;
+    padding: 16px 30px;
+    font-family: var(--font-stack);
+    p {
+        font-size: 26px;
+        padding-top: 5px;
+        color: var(--white-color);
+    }
+    button {
+        min-width: 44px;
+        min-height: 44px;
+        padding: 5px;
+        border-radius: 5px;
+        border: none;
+        background: transparent;
+        div {
+            width: 30px;
+            height: 4px;
+            border-radius: 10px;
+            background-color: var(--white-color);
+            margin: 4px 0;
+        }
+    }
+}
+
+.nav-mobile {
+    position: fixed;
+    font-family: var(--font-stack);
+    width: 100%;
+    display: flex;
+    font-weight: 600;
+    font-size: 14px;
+    a {
+        display: inline-block;
+        padding: 1.3em;
+        text-decoration: none;
+    }
+    .mobile {
+        width: 60%;
+        padding: 0;
+        margin: 0;
+        .mobile-list {
+            box-sizing: border-box;
+            display: inline-block;
+            text-align: left;
+            line-height: 24px;
+            color: var(--info-color) !important;
+        }
+    }
+}
+.nav {
+    background-color: var(--info-color);
+    font-family: var(--font-stack);
+    width: 100%;
+    display: flex;
+    padding: 16px 30px;
+    font-weight: 600;
+    a {
+        display: inline-block;
+        padding: 1.3em;
+        text-decoration: none;
+        color: var(--white-color) !important;
+        &:hover {
+            text-decoration: none;
+        }
+    }
+    .desktop {
+        width: 81%;
+        padding: 0;
+        margin: 0;
+        text-align: right;
+        font-size: 16px;
+        .nav-items {
+            box-sizing: border-box;
+            display: inline-block;
+            text-align: right;
+            line-height: 24px;
+        }
+    }
+    .logo {
+        width: 18%;
+        padding: 16px 30px;
+        color: var(--white-color);
+        text-align: left;
+        letter-spacing: 3px;
+        box-sizing: border-box;
+        display: inline-block;
+    }
+}

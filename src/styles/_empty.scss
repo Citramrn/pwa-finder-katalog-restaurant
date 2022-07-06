@@ -1,0 +1,15 @@
+// empty message
+
+.text-empty {
+    font-family: var(--font-stack);
+    padding-top: 10%;
+    text-align: center;
+    font-size: 18px;
+    .likes {
+        font-size: 18px;
+        bottom: 16px;
+        right: 16px;
+        color: var(--succes-color);
+        border: 0;
+    }
+}

@@ -6,9 +6,6 @@ Web App for find and review best restaurant in Indonesia
 
 ![all-devices-white-2](https://i.ibb.co/n6GfSft/all-devices-white-2.png)
 
- 
-#### Link production: [https://katalog-restaurants.frge.io/](https://katalog-restaurants.frge.io/)
-
 ### Features :
 - JamStack
 - Progresive Web App

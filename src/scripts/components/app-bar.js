@@ -1,10 +1,10 @@
 class AppBar extends HTMLElement {
-	connectedCallback() {
-		this.render();
-	}
+  connectedCallback() {
+    this.render();
+  }
 
-	render() {
-		this.innerHTML = `
+  render() {
+    this.innerHTML = `
         <div class="menu-mobile">
         	<p>Restaurant.</p>
             <button class="icon-menu" type="button" id="menuHamburger" aria-label="Toggle navigation">
@@ -29,7 +29,7 @@ class AppBar extends HTMLElement {
 			</ul>
 		</nav>
         `;
-	}
+  }
 }
 
-customElements.define('app-header', AppBar);
+customElements.define("app-header", AppBar);

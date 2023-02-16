@@ -1,51 +1,51 @@
 //detail restaurant start
 .flex-container {
-    padding: 5%;
-    @media (min-width: 56.25em) {
-        display: flex;
-    }
+  padding: 5%;
+  @media (min-width: 56.25em) {
+    display: flex;
+  }
 
-    .text_six {
-        background: var(--warning-color);
-        padding: 20px;
-        max-width: 300px;
-        box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
-    }
+  .text_six {
+    background: var(--warning-color);
+    padding: 20px;
+    max-width: 300px;
+    box-shadow: 0px 10px 15px rgba(39, 39, 39, 0.1);
+  }
 
-    .main-content {
-        h1 {
-            font-family: var(--font-family);
-            font-weight: bold;
-            font-size: 28px;
-        }
-        p {
-            font-family: var(--font-stack);
-            font-size: 17px;
-        }
-        .square {
-            font-family: var(--font-stack);
-            font-size: 17px;
-            display: flex;
-        }
-        .square_one {
-            background-color: var(--warning-color);
-            margin-right: 20px;
-            padding: 5px;
-            border-radius: 5px;
-            box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
-        }
-        flex: 1;
-        margin: 30px;
-        img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 5px;
-        }
+  .main-content {
+    h1 {
+      font-family: var(--font-family);
+      font-weight: bold;
+      font-size: 28px;
     }
+    p {
+      font-family: var(--font-stack);
+      font-size: 17px;
+    }
+    .square {
+      font-family: var(--font-stack);
+      font-size: 17px;
+      display: flex;
+    }
+    .square_one {
+      background-color: var(--warning-color);
+      margin-right: 20px;
+      padding: 5px;
+      border-radius: 5px;
+      box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+    }
+    flex: 1;
+    margin: 30px;
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
+  }
 }
 
 .flex-containers {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 //detail restaurant end
